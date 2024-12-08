@@ -1,0 +1,35 @@
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow para resaltar el card */
+}
+
+.card-img-top {
+  padding: 10px;
+  width: 200px;
+  height: 150px; /* Establece una altura fija */
+  object-fit: cover; /* Recorta la imagen para que se ajuste al contenedor */
+  margin: 0 auto; /* Para centrar la imagen horizontalmente dentro del card */
+}
+
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Estilo personalizado para el input */
+.borderless-input {
+  border: none;
+  /* Otros estilos opcionales */
+  outline: none; /* Esto elimina el resaltado al hacer clic */
+  box-shadow: none; /* Esto elimina cualquier sombra */
+}
+
